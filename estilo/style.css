@@ -19,7 +19,7 @@ header {
   background-color: black;
   color: white;
 
-  height: 280px;
+ 
 }
 
 header > h1 {
@@ -36,8 +36,10 @@ header > p {
   padding-bottom: 50px;
 }
 
-body {
+html,body{
   min-height: 100vh;
+  background-color: darkgrey;
+  font-family: var(--fonte1);
 }
 
 a {
@@ -59,12 +61,12 @@ a:hover {
 
   padding-left: 30px;
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 2em;
   line-height: 2em;
 }
 
 #b1 {
-  background: black url(../imagens/background001.jpg) center center no-repeat
+  background: black url(../imagens/background001.jpg) right center no-repeat
     fixed;
   background-size: cover;
   padding: 61.1px 30px;
@@ -91,7 +93,7 @@ a:hover {
 }
 
 #b2 {
-  background: black url(../imagens/background002.jpg) center center no-repeat
+  background: black url(../imagens/background002.jpg) right center no-repeat
     fixed;
   background-size: cover;
   padding: 61.1px 30px;
