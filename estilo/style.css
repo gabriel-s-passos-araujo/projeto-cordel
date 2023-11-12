@@ -66,10 +66,11 @@ a:hover {
 }
 
 #b1 {
-  background: black url(../imagens/background001.jpg) right center no-repeat
-    fixed;
+  background: black url(../imagens/background001.jpg) right center fixed;
   background-size: cover;
-  padding: 61.1px 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
 
   box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.507);
 }
@@ -81,8 +82,7 @@ a:hover {
   line-height: 2em;
 
   padding: 5px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  
 
   border-radius: 1px;
   text-shadow: 1px 1px 0px black;
@@ -93,10 +93,11 @@ a:hover {
 }
 
 #b2 {
-  background: black url(../imagens/background002.jpg) right center no-repeat
-    fixed;
+  background: black url(../imagens/background002.jpg) right center fixed;
   background-size: cover;
-  padding: 61.1px 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
 
   box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.521);
 }
@@ -109,8 +110,7 @@ a:hover {
 
   display: inline-block;
   padding: 5px;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  
 
   border-radius: 1px;
   text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.404);
